@@ -4,10 +4,10 @@
   roles:
     - stackfocus.postfix-dovecot
   vars:
-    postfix_dovecot_mysql_db_name: mailserver
-    postfix_dovecot_mysql_user: mailuser
-    postfix_dovecot_mysql_password: mailpass
-    postfix_default_domain: example.com
+    postfix_dovecot_mysql_db_name: dosanserver
+    postfix_dovecot_mysql_user: dosan
+    postfix_dovecot_mysql_password: Welcome$$Sudan123
+    postfix_default_domain: aldosan.site
     dovecot_protocols:
       - imap
       - pop3
